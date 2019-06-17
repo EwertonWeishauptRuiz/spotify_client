@@ -66,5 +66,3 @@ def get_valid_auth_header():
 
 if not os.path.isfile('auth.json'):
     auth = authorize_app()
-
-authorize_app()
